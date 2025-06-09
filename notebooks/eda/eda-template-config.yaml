@@ -1,0 +1,5 @@
+pandas_config:
+  max_columns: 100
+  max_rows: null
+run_pandas_profiling: True
+data_file_path: ''
