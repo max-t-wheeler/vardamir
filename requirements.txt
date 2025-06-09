@@ -1,0 +1,4 @@
+jupyterlab
+ipywidgets
+pandas
+ydata-profiling
