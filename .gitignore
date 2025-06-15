@@ -195,3 +195,4 @@ cython_debug/
 
 # WIP files
 wip/
+merge-branches.sh
