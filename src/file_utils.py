@@ -1,6 +1,8 @@
 from pathlib import PosixPath
 from zipfile import ZipFile
 
+import pandas as pd
+
 def get_zip_content_summary(zip_file_path: PosixPath) -> pd.DataFrame:
   zip_file_names = []
   zip_file_sizes = []
