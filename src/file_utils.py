@@ -24,3 +24,4 @@ def get_zip_content_summary(zip_file_path: PosixPath) -> pd.DataFrame:
   dataframe['file_comress_size_mb'] = dataframe['file_compress_size'].apply(lambda x: f'{x * 1e-6} MB')
 
   return dataframe
+  
